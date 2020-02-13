@@ -9,6 +9,7 @@ const ws = router();
 http.get('/', ctx => {
     ctx.status = 200;
     ctx.body = 'Hello!';
+    
 });
 
 ws.get('/socket', ctx => {
