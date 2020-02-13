@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/gaborwho/charter#readme",
   "dependencies": {
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.7",
+    "koa-websocket": "^6.0.0",
+    "ws": "^7.2.1"
   }
 }
