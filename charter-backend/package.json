@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "testdata": "while true; do curl \"http://localhost:3000/input\" -X POST -d \"$(./testdata_generator.sh)\" -H 'Content-Type: application/json'; sleep 0.2; done"
   },
   "repository": {
     "type": "git",
